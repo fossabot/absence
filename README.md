@@ -1,4 +1,6 @@
 # Absence Management Tool
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fnohn%2Fabsence.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fnohn%2Fabsence?ref=badge_shield)
+
 
 ## Setup and Deployment
 
@@ -15,3 +17,7 @@
 * Setup a Google Cloud project: `gcloud projects create $GCP_PROJECT` and enable Google AppEngine: `gcloud app create --project=$GCP_PROJECT --region=$GCP_REGION`
 * Deploy absence to Google AppEngine: `gcloud app deploy --project=$GCP_PROJECT`
 * Setup Google Identity Aware Proxy according to https://cloud.google.com/iap/docs/app-engine-quickstart#enabling_iap
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fnohn%2Fabsence.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fnohn%2Fabsence?ref=badge_large)
